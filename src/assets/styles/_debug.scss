@@ -1,4 +1,7 @@
-.b1 {
+@use './mixins' as mixin;
+
+
+  .b1 {
     background-color: red;
     border: 1px solid red;
   }
@@ -16,4 +19,29 @@
   .b4 {
     background-color: purple;
     border: 1px solid purple;
+  }
+
+  // responsive border
+
+  .rb {
+
+    @include mixin.xs {
+      border: 2px solid red;
+    }
+
+    @include mixin.sm {
+      border: 2px solid green;
+    }
+
+    @include mixin.md {
+      border: 2px solid blue;
+    }
+
+    @include mixin.lg {
+      border: 2px solid orange;
+    }
+
+    @include mixin.xl {
+      border: 2px solid purple;
+    }
   }
