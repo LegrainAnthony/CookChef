@@ -1,8 +1,14 @@
+<<<<<<< HEAD
+=======
+// Elements de bases de l'application pour assigner un style générique à l'app
+
+>>>>>>> 298512b628b2b302fdfe2bb2ca9ba3b964dfe795
 body {
     margin: 0;
     font-family: var(--font-family);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
     color: (var(--text-color));
   }
   
@@ -22,3 +28,37 @@ ul {
     padding-left: 0px;
     margin: 0;
 }
+=======
+    color: var(--text-color);
+    background-color: var(--gray-2);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  input {
+    font-family: var(--font-family);
+  }
+
+  ::placeholder {
+    font-size: var(--font-family);
+  }
+>>>>>>> 298512b628b2b302fdfe2bb2ca9ba3b964dfe795

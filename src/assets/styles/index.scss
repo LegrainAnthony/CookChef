@@ -1,2 +1,13 @@
+<<<<<<< HEAD
 @use "./variable";
 @use "./base";
+=======
+//@use sert à "import" les fichier scss
+
+@use "./variables";
+@use "./base";
+@use "./flex";
+@use "./utils";
+@use "./debug";
+@use "./themes"
+>>>>>>> 298512b628b2b302fdfe2bb2ca9ba3b964dfe795

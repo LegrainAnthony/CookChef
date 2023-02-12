@@ -1,3 +1,27 @@
 .d-flex {
     display: flex;
+<<<<<<< HEAD
 }
+=======
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .flex-fill {
+    flex: 1 1 auto;
+  }
+  
+  .justify-content-center {
+    justify-content: center;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+>>>>>>> 298512b628b2b302fdfe2bb2ca9ba3b964dfe795
